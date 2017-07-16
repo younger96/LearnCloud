@@ -11,6 +11,11 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+ext {
+    compileSdkVersion = 26       // depending on your sdk version
+    buildToolsVersion = "26.0.0" // depending on your build tools version
+    targetSdkVersion = 26        // depending on your sdk version
+}
 
 allprojects {
     repositories {
