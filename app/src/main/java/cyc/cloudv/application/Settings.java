@@ -23,7 +23,9 @@ import android.preference.PreferenceManager;
 
 import cyc.cloudv.R;
 
-
+/**
+ *  pull from ijkplayer-example, needed by ijkVideoView
+ */
 public class Settings {
     private Context mAppContext;
     private SharedPreferences mSharedPreferences;

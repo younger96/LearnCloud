@@ -8,6 +8,8 @@
     <string name="str_reload">重新加载</string>
 
 
+    <!--********** below was needed by ijkplayer ****-->
+
     <string name="N_A">N/A</string>
     <string name="close">Close</string>
     <string name="exit">Exit</string>

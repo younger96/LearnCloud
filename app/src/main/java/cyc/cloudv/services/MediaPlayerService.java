@@ -17,6 +17,9 @@
 
 package cyc.cloudv.services;
 
+/**
+ *  pull from ijkplayer-example, needed by ijkVideoView
+ */
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
