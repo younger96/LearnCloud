@@ -5,5 +5,5 @@ package cyc.cloudv.video;
  */
 
 public class VideoTest {
-    private String mString;
+    private String   mString;
 }
