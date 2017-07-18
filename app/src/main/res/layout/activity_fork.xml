@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="更改关注学院"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_ok_activity_fork"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_ok_24dp"/>
+
+        <Button
+            android:id="@+id/btn_back_activity_fork"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_reply_black_24dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前关注的学院："
+        android:textSize="15sp"
+        android:id="@+id/tv_academy_fork_activity"
+        android:background="@color/color_gray_background_dark"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击选择你要关注的学院（可选两个）"
+        android:textSize="15sp"
+        android:background="@color/color_gray_background_dark"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view_fork_activity">
+
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

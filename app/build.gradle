@@ -30,9 +30,13 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:design:26.+'
     testCompile 'junit:junit:4.12'
     compile 'tv.danmaku.ijk.media:ijkplayer-java:0.8.1'
     compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.8.1'
-//    compile project(':ijkplayer-example')
+    //    compile project(':ijkplayer-example')
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'com.android.support:cardview-v7:22.2.1'
 }
